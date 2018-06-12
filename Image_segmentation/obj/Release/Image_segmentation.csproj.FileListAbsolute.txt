@@ -16,4 +16,4 @@ C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\I
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\Image_segmentation.csproj.CoreCompileInputs.cache
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\Image_segmentation.exe
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\Image_segmentation.pdb
-C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\Image_segmentation.csprojResolveAssemblyReference.cache
+C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Release\Image_segmentation.csprojAssemblyReference.cache

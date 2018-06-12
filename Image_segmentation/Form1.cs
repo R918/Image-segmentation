@@ -287,6 +287,8 @@ namespace Image_segmentation
 
         private void button1_Click(object sender, EventArgs e)
         {
+            Invalidate();
+            Update();
             if (pictureBox1.Image == null)
             {
                 MessageBox.Show("Изображение не загружено");
@@ -297,17 +299,17 @@ namespace Image_segmentation
                 MessageBox.Show("Подождите завершения обработки изображения");
                 return;
             }
-            Invalidate();
-            Thread KmeanThread = new Thread(new ParameterizedThreadStart(Kmean_segmentation));
+            
+            Thread KmeanThread = new Thread(new ThreadStart(Kmean_segmentation));
             KmeanThread.Name = "Kmean_Thread";
-            int k;
-            k = trackBar1.Value;
-            KmeanThread.Start(k);
+            
+            KmeanThread.Start();
 
         }
-        public void Kmean_segmentation(object x)
+        public void Kmean_segmentation()
         {
-            int k = (int)x;
+            int k =0;
+            this.trackBar1.BeginInvoke((MethodInvoker)(() => k = this.trackBar1.Value));
             t1.Start();
             byte[,,] res;
             if (is_Gray)
@@ -728,7 +730,7 @@ namespace Image_segmentation
         {
 
         }
-        //aglomerative clustering works only on very small resolusion images
+        //aglomerative clustering works only on very small resolusion images ~(56x56)
         //private void button5_Click(object sender, EventArgs e)
         //{
         //    int k = Convert.ToInt32(numericUpDown3.Value);

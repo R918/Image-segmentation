@@ -13,10 +13,12 @@ namespace Image_segmentation
         {
             int H = res.GetUpperBound(1) + 1;
             int W = res.GetUpperBound(2) + 1;
-            int stepX = 0;
-            int stepY = 0;
+            int stepX;
+            int stepY;
             if (Initialize_random)
             {
+                stepX = 0;
+                stepY = 0;
                 Random rand = new Random();
 
                 for (int i = 0; i < clusarr.Count; i++)
@@ -32,6 +34,8 @@ namespace Image_segmentation
             }
             else
             {
+                stepX = 0;
+                stepY = 0;
                 int sX = H / clusarr.Count;
                 int sY = W / clusarr.Count;
                 for (int i = 0; i < clusarr.Count; i++)

@@ -11,10 +11,10 @@ E:\Ruslan\1learn\bachalor\programm\Image_segmentation\Image_segmentation\obj\Deb
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\bin\Debug\Image_segmentation.exe.config
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\bin\Debug\Image_segmentation.exe
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\bin\Debug\Image_segmentation.pdb
-C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.csprojResolveAssemblyReference.cache
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.Form1.resources
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.Properties.Resources.resources
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.csproj.GenerateResource.cache
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.csproj.CoreCompileInputs.cache
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.exe
 C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.pdb
+C:\1learn\bachalor\programma\Image_segmentation\Image_segmentation\obj\Debug\Image_segmentation.csprojAssemblyReference.cache
