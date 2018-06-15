@@ -56,7 +56,11 @@ namespace Image_segmentation
             {
                 int sumX = 0, sumY = 0, sumR = 0, sumG = 0, sumB = 0;
                 if (clusarr[j].scores.Count == 0)
-                    return;
+                {
+                    clusarr[j].last_pixel = clusarr[j].current_pixel;
+                    continue;
+                }
+                    
                 int size = clusarr[j].scores.Count;
                 for (int i = 0; i < size; i++)
                 {
